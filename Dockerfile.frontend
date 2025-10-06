@@ -7,6 +7,9 @@ RUN npm install
 RUN npm install -g npm@11.6.1
 COPY . .
 
+ENV REACT_APP_API_URL=https://yourdomain/api
+ENV REACT_APP_API_BASE=https://yourdomain/api
+
 EXPOSE 3000
 
 CMD ["npm", "run start"]

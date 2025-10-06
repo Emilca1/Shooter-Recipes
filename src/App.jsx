@@ -3,7 +3,7 @@ import ShooterForm from "./ShooterForm";
 import ShooterList from "./ShooterList";
 import './index.css';
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = process.env.REACT_APP_API_BASE || "/api";
 
 const App = () => {
   const [shooters, setShooters] = useState([]);

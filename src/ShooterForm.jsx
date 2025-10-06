@@ -25,37 +25,37 @@ const colorOptions = [
   { value: "Argent", label: "Argent" },
 ];
 
-// Styles custom pour améliorer la visibilité dans react-select
+
 const customSelectStyles = {
   control: (base) => ({
     ...base,
-    backgroundColor: "#111827", // gris très sombre
-    borderColor: "#4B5563", // gris moyen
+    backgroundColor: "#111827",
+    borderColor: "#4B5563",
     color: "#fff",
-    "&:hover": { borderColor: "#8B5CF6" }, // violet au hover
+    "&:hover": { borderColor: "#8B5CF6" },
   }),
   menu: (base) => ({
     ...base,
-    backgroundColor: "#1F2937", // fond sombre du menu
+    backgroundColor: "#1F2937",
     color: "#fff",
   }),
   option: (base, state) => ({
     ...base,
     backgroundColor: state.isSelected
-      ? "#8B5CF6" // violet si sélectionné
+      ? "#8B5CF6"
       : state.isFocused
-      ? "#374151" // gris plus clair au hover
+      ? "#374151"
       : "transparent",
-    color: state.isSelected ? "#fff" : "#E5E7EB", // texte blanc ou gris clair
+    color: state.isSelected ? "#fff" : "#E5E7EB",
     cursor: "pointer",
   }),
   singleValue: (base) => ({
     ...base,
-    color: "#fff", // valeur affichée en blanc
+    color: "#fff",
   }),
   placeholder: (base) => ({
     ...base,
-    color: "#9CA3AF", // placeholder gris clair
+    color: "#9CA3AF",
   }),
 };
 
