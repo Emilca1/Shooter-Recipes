@@ -11,7 +11,7 @@ vhost-apache.conf
 ```
 If you want to create a user/password for the app :
 ```
-sudo htpasswd -c /etc/apache2/.htpasswd ton_nom_dutilisateur
+sudo htpasswd -c /etc/apache2/.htpasswd username
 ```
 You will need to edit "yourdomain" for your personnal domain name for the app to work (mainly for the backend)
 
