@@ -9,7 +9,10 @@ A vhost is available with passwd basic auth if you use Apache for reverse proxy
 ```
 vhost-apache.conf
 ```
-
+If you want to create a user/password for the app :
+```
+sudo htpasswd -c /etc/apache2/.htpasswd ton_nom_dutilisateur
+```
 You will need to edit "yourdomain" for your personnal domain name for the app to work (mainly for the backend)
 
 Just start the docker-compose
