@@ -1,0 +1,105 @@
+{
+  "shooters": [
+    {
+      "id": "1b862bf1-3f56-4e3b-8974-c3c428d6a2bc",
+      "nom": "Orgasme",
+      "nombre": "6",
+      "ingredients": [
+        {
+          "nom": "Get27",
+          "dosage": 12
+        },
+        {
+          "nom": "Baileys",
+          "dosage": 12
+        }
+      ],
+      "note": null,
+      "couleur": "Vert",
+      "dateCreation": "2025-10-04T15:39:32.872Z"
+    },
+    {
+      "id": "e1b12fde-c75d-4d6b-a2f1-83edc5786094",
+      "nom": "le Gourmand",
+      "nombre": "6",
+      "ingredients": [
+        {
+          "nom": "Nutella",
+          "dosage": 2
+        },
+        {
+          "nom": "Vodka",
+          "dosage": 10
+        },
+        {
+          "nom": "Baileys",
+          "dosage": 10
+        }
+      ],
+      "note": null,
+      "couleur": "Marron",
+      "dateCreation": "2025-10-04T15:45:52.852Z"
+    },
+    {
+      "id": "19b6071b-6400-4ab1-83a1-319a1cc9c216",
+      "nom": "Fraise Banane",
+      "nombre": "6",
+      "ingredients": [
+        {
+          "nom": "Jus de fraise",
+          "dosage": 10
+        },
+        {
+          "nom": "Jus de banane",
+          "dosage": 10
+        },
+        {
+          "nom": "Vodka",
+          "dosage": 4
+        }
+      ],
+      "note": null,
+      "couleur": "Rose",
+      "dateCreation": "2025-10-04T15:53:40.009Z"
+    },
+    {
+      "id": "1e31aa7d-c2af-4d92-a971-87400fdb9fa0",
+      "nom": "Fruity Jagger",
+      "nombre": 1,
+      "ingredients": [
+        {
+          "nom": "Jus d'orange",
+          "dosage": 15
+        },
+        {
+          "nom": "Jaggermeister",
+          "dosage": 9
+        }
+      ],
+      "note": null,
+      "couleur": "Marron",
+      "dateCreation": "2025-10-04T15:54:53.014Z"
+    }
+  ],
+  "ingredients": [
+    "Baileys",
+    "Get27",
+    "Jus d'orange",
+    "Jus d'ananas",
+    "Nutella",
+    "Jus de fraise",
+    "Jus multifruit",
+    "Vodka",
+    "Tequila",
+    "Curaçao",
+    "Amaretto",
+    "Cointreau",
+    "Liqueur de coco",
+    "Sirop de fraise",
+    "Sirop de pina colada",
+    "Jus de citron",
+    "Sirop de pêche",
+    "Jus de banane",
+    "Jaggermeister"
+  ]
+}
